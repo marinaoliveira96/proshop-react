@@ -16,7 +16,7 @@ import Loader from '../components/Loader';
 import { listProductDetails } from '../actions/productActions';
 
 const ProductScreen = ({ history, match }) => {
-  const [qty, setQty] = useState(0); // qty = quantidade
+  const [qty, setQty] = useState(1); // qty = quantidade
 
   const dispatch = useDispatch();
 
